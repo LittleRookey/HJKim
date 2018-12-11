@@ -40,10 +40,13 @@ body {
 	margin-right: 3%;
 }
 
+.floatCenter {
+	padding-left: 45%;
+}
 .gameTitle {
 	background: white;
 	padding-left: 13%;
-	padding-top: 10%;
+	padding-top: 5%;
 	list-style: none;
 	font-size: 160%;
 	clear: both;
