@@ -1,0 +1,65 @@
+body {
+	background: white;
+	margin: 0;
+	padding: 0;
+}
+
+.icons {
+	display: flex;
+	text-align: center;
+	position: absolute;
+	top: 25%;
+	left: 34.5%;
+	transform.translate(-50%, -50%);
+}
+
+.lines {
+	background: white;
+	margin: 10px;
+	list-style: none;
+	font-size: 24px;
+	transition: .5s;
+}
+.links {
+	width: 60px;
+	padding: 16px 0;
+	display: block;
+	color: #fff;
+}
+
+.floatLeft {
+	float: left;
+	margin-left: 3%; ;
+}
+
+.gameTitle {
+	padding-left: 20%;
+	padding-top: 10%;
+	list-style: none;
+	font-size: 160%;
+	clear: both;
+	color: black;
+}
+
+.icons .lines:nth-child(1) {
+	background: #3b5998;
+}
+.icons .lines:nth-child(2) {
+	background: #dd4b39;
+}
+.icons .lines:nth-child(3) {
+	background: #bb0000;
+}
+.icons .lines:nth-child(4) {
+	background: #bc2a8d;
+}
+.icons .lines:nth-child(5) {
+	background: #333;
+}
+
+.icons .lines:hover {
+	transform: translateY(-8px);
+	box-shadow:0 10px 10px rgba(0,0,0,.5);
+}
+
+

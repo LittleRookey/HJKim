@@ -3,9 +3,9 @@ body {
 }	
 
 header  {
-	background: #999;
+	background: #1600;
 	color: white;
-	padding: 40px 0 0 0;
+	padding: 60px 0 0 0;
 }
 header h1 {
 	margin: 0;
@@ -19,11 +19,11 @@ nav ul {
 }
 
 nav ul li {
-	background: #888;
+	background: lightblue;
 	color: white;
 	display: inline-block;
 	list-style-type: none;
-	padding: 30px 100px 0 100px;
+	padding: 15px 100px 15px 100px;
 }
 
 nav ul li a {
@@ -31,20 +31,55 @@ nav ul li a {
 	color: black;
 }
 
+
 .row:after {
 	clear: both;
 }
 
 .col {
-	background: #999;
-	border-radius: 5px;
-	padding: 10px 3%;
+	background: white;
+	border-radius: 10px;
+	padding: 0 0 2% 25%;
+	list-style-type: none;
 	color: black;
+	font-size: 130%;
 	float: left;
-	margin: .5%;
-	width: 40%;
+	margin: 1%;
+	width: 50%;
+}
+
+.DucklerEscape {
+	background: lightgreen;
+	border-radius: 10px;
+	padding: 0 0 2% 25%;
+	list-style-type: none;
+	color: black;
+	font-size: 130%;
+	float: left;
+	margin: 1%;
+	width: 50%;
+}
+
+.middleText {
+	clear: both;
+	color: #1999;
+	padding-left: 43%;
+	top: 20%;
+}
+
+.middleText2 {
+	clear: both;
+	color: #888;
+	padding-left: 42%;
+	top: 30%;
+}
+
+.foot {
+	padding-left: 38%;
+	clear: both;
 }
 
 footer {
 	clear: both;
+	margin-left: 3%;
 }
