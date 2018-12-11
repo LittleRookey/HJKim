@@ -33,6 +33,7 @@ nav ul li a {
 
 .row:after {
 	clear: both;
+	float: left;
 }
 
 .col {
