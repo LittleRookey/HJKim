@@ -29,11 +29,14 @@ body {
 
 .floatLeft {
 	float: left;
-	margin-left: 3%; ;
+	margin-left: 3%; 
+	margin-right: 1%;
+	clear: both;
 }
 
 .gameTitle {
-	padding-left: 20%;
+	background: white;
+	padding-left: 13%;
 	padding-top: 10%;
 	list-style: none;
 	font-size: 160%;
