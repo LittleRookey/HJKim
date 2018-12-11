@@ -34,6 +34,12 @@ body {
 	clear: both;
 }
 
+
+.floatRight {
+	float: right;
+	margin-right: 3%;
+}
+
 .gameTitle {
 	background: white;
 	padding-left: 13%;
