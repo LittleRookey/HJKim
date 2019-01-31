@@ -8,9 +8,11 @@ header  {
 	padding: 60px 0 0 0;
 }
 header h1 {
-	margin: 0;
+	margin-left: 10%;
+	font-size: 160%;
 	display: inline;
-	padding: 0 340px 0 0;
+	color: #999;
+	padding: 0 150px 0 0;
 }
 
 nav ul {
