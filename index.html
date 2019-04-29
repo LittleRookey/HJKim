@@ -43,8 +43,8 @@
 			<img class="floatLeft" src="HeaderSiro.png" style="width: 300px;height: 400px;" />
 			<footer>Image from https://co.pinterest.com/bbgirlvip/pins/</footer>
 			
-			<audio controls volume="0" class="audioPlayer">
-				<source src="mp3/ThisGame.mp3" type="audio/mpeg" />
+			<audio id="audio1" controls  onloadeddata="setHalfVolume()" volume="0" class="audioPlayer">
+				<source src="mp3/ThisGame.mp3" type="audio/mp3" />
 				Your browser does not support the audio element.
 			</audio>
 
@@ -59,6 +59,12 @@
                 <!-- Scripts -->
                 <script src="Scripts/detectmobilebrowser.js.txt"></script>
                 
+                <script>
+                	function setHalfVolume() {
+    					var myAudio = document.getElementById("audio1");  
+    					myAudio.volume = 0.5; 
+					}
+                </script>
 
      	 </body>            
 			<footer class="foot">@2018 Kim's GameStudio</footer>
