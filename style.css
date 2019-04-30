@@ -8,7 +8,7 @@ body {
 	display: flex;
 	text-align: center;
 	position: absolute;
-	top: 25%;
+	top: 30%;
 	left: 34.5%;
 	transform.translate(-50%, -50%);
 }

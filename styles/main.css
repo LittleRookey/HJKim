@@ -42,6 +42,10 @@ nav ul li a {
 	float: left;
 }*/
 
+.noUnderline {
+	text-decoration: none;
+}
+
 .col {
 	background: white;
 	border-radius: 10px;
@@ -100,7 +104,6 @@ nav ul li a {
 	color: #888;
 	padding-left: 42%;
 	top: 30%;
-	margin-bottom: 5%;
 }
 
 .audioPlayer {
