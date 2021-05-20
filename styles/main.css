@@ -75,6 +75,21 @@ nav ul li a {
 	width: 70%;
 }
 
+.ProjectZ {
+	background: darkgreen;
+	border-radius: 10px;
+	padding: 1% 0 2% 0;
+	list-style-type: none;
+	color: white;
+	font-size: 130%;
+	float: left;
+	margin: 1%;
+	width: 70%;
+}
+
+.ProjectZ a {
+	color: yellow;
+}
 .sameBlock {
 	list-style-type: none;
 }
