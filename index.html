@@ -40,10 +40,10 @@
 				<li class="lines"><a target="_blank" class="links" href="https://github.com/LittleRookey?tab=repositories"><i class="fa fa-github" aria-hidden="true"></i></a></li>
 			</ul>
 
-			<img class="floatLeft" src="HeaderSiro.png" style="width: 300px;height: 400px;" />
-			<footer>Image from https://co.pinterest.com/bbgirlvip/pins/</footer>
+			<img class="floatLeft" src="saver.jpg" style="width: 300px;height: 400px;" />
+			<footer></footer>
 			
-			<audio controls class="audioPlayer">
+			<audio controls class="audioPlayer" id="myaudio">
 				<source src="mp3/Jap_Songs_forwork.mp3" type="audio/mp3" />
 				Your browser does not support the audio element.
 			</audio>
@@ -58,7 +58,10 @@
 
                 <!-- Scripts -->
                 <script src="Scripts/detectmobilebrowser.js.txt"></script>
-                
+                <script>
+					var audio = document.getElementById("myaudio");
+					audio.volume = 0.2;
+				</script>
 
      	 </body>            
 			<footer class="foot">@2019 Kim's GameStudio</footer>

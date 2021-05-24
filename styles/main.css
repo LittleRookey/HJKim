@@ -1,6 +1,3 @@
-2\
-
-
 body {
 	font-family: arial; 
 }	
@@ -75,6 +72,19 @@ nav ul li a {
 	width: 70%;
 }
 
+.Momento {
+	background: #000080;
+	border-radius: 10px;
+	padding: 1% 0 2% 0;
+	list-style-type: none;
+	color: yellow;
+	font-size: 115%;
+	float: left;
+	margin: 1%;
+	width: 70%;
+
+}
+
 .ProjectZ {
 	background: darkgreen;
 	border-radius: 10px;
@@ -87,6 +97,9 @@ nav ul li a {
 	width: 70%;
 }
 
+.Momento a {
+	color: lightblue;
+}
 .ProjectZ a {
 	color: yellow;
 }
