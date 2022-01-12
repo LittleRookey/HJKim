@@ -134,6 +134,13 @@ nav ul li a {
 	top: 30%;
 }
 
+.middleText3 {
+	clear: both;
+	color: #333;
+	padding-left: 41%;
+	top: 40%;
+}
+
 .audioPlayer {
 	background: lightblue;
 	display: block;
